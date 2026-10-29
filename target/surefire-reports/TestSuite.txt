@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 10.55 s <<< FAILURE! -- in TestSuite
+cucumberOptions.TestRunner.runScenario["Click Search to search the bus", "Bus search"](1) -- Time elapsed: 3.837 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHooks.getDriver()" is null
+	at hooks.ScenarioHooks.teardown(ScenarioHooks.java:79)
+
+cucumberOptions.TestRunner.runScenario["click Fastest first to Sort", "Sorting as Fastest First"](2) -- Time elapsed: 3.840 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHooks.getDriver()" is null
+	at hooks.ScenarioHooks.teardown(ScenarioHooks.java:79)
+
+cucumberOptions.TestRunner.runScenario["click Cheapest first to Sort", "Sorting as Cheapest First"](3) -- Time elapsed: 9.789 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHooks.getDriver()" is null
+	at hooks.ScenarioHooks.teardown(ScenarioHooks.java:79)
+

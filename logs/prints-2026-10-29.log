@@ -1,0 +1,3 @@
+13:04:27.837 [TestNG-PoolService-2] ERROR stepDefinitions.B_FastestDuration - exception occuredclass org.openqa.selenium.remote.RemoteWebElement cannot be cast to class java.util.List (org.openqa.selenium.remote.RemoteWebElement is in unnamed module of loader 'app'; java.util.List is in module java.base of loader 'bootstrap')
+13:04:30.816 [TestNG-PoolService-3] DEBUG stepDefinitions.A_ValidateBusSearch - Date is Selecetd
+13:04:30.870 [TestNG-PoolService-3] DEBUG stepDefinitions.A_ValidateBusSearch - Search is working fine 

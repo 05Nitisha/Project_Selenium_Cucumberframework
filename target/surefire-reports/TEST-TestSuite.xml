@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="10.549" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\aashi\eclipse-workspace\gsit_project\target\test-classes;C:\Users\aashi\eclipse-workspace\gsit_project\target\classes;C:\Users\aashi\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar;C:\Users\aashi\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar;C:\Users\aashi\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\aashi\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\aashi\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\aashi\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\aashi\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.25.0\allure-cucumber7-jvm-2.25.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\aashi\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\aashi\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\aashi\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\aashi\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\aashi\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\aashi\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\aashi\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\aashi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\aashi\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-java\4.39.0\selenium-java-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-api\4.39.0\selenium-api-4.39.0.jar;C:\Users\aashi\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.39.0\selenium-chrome-driver-4.39.0.jar;C:\Users\aashi\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.39.0\selenium-chromium-driver-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-json\4.39.0\selenium-json-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.39.0\selenium-manager-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.39.0\selenium-devtools-v141-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.39.0\selenium-devtools-v142-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.39.0\selenium-devtools-v143-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.39.0\selenium-edge-driver-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.39.0\selenium-firefox-driver-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-http\4.39.0\selenium-http-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.39.0\selenium-ie-driver-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.39.0\selenium-remote-driver-4.39.0.jar;C:\Users\aashi\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\aashi\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\aashi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\aashi\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\aashi\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-api\1.56.0\opentelemetry-api-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-context\1.56.0\opentelemetry-context-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-common\1.56.0\opentelemetry-common-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.56.0\opentelemetry-exporter-logging-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.56.0\opentelemetry-sdk-common-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.56.0\opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.56.0\opentelemetry-sdk-extension-autoconfigure-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.56.0\opentelemetry-sdk-trace-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.56.0\opentelemetry-sdk-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.56.0\opentelemetry-sdk-metrics-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.56.0\opentelemetry-sdk-logs-1.56.0.jar;C:\Users\aashi\.m2\repository\net\bytebuddy\byte-buddy\1.18.2\byte-buddy-1.18.2.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-os\4.39.0\selenium-os-4.39.0.jar;C:\Users\aashi\.m2\repository\org\apache\commons\commons-exec\1.6.0\commons-exec-1.6.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.39.0\selenium-safari-driver-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-support\4.39.0\selenium-support-4.39.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-26.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\aashi\AppData\Local\Temp\surefire10848743262704952110\surefirebooter-20261029124437747_3.jar C:\Users\aashi\AppData\Local\Temp\surefire10848743262704952110 2026-10-29T12-44-37_613-jvmRun1 surefire-20261029124437747_1tmp surefire_0-20261029124437747_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\aashi\eclipse-workspace\gsit_project\target\test-classes;C:\Users\aashi\eclipse-workspace\gsit_project\target\classes;C:\Users\aashi\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar;C:\Users\aashi\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar;C:\Users\aashi\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\aashi\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\aashi\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\aashi\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\aashi\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.25.0\allure-cucumber7-jvm-2.25.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\aashi\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\aashi\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\aashi\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\aashi\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\aashi\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\aashi\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\aashi\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\aashi\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\aashi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\aashi\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-java\4.39.0\selenium-java-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-api\4.39.0\selenium-api-4.39.0.jar;C:\Users\aashi\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.39.0\selenium-chrome-driver-4.39.0.jar;C:\Users\aashi\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.39.0\selenium-chromium-driver-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-json\4.39.0\selenium-json-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.39.0\selenium-manager-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.39.0\selenium-devtools-v141-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.39.0\selenium-devtools-v142-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.39.0\selenium-devtools-v143-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.39.0\selenium-edge-driver-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.39.0\selenium-firefox-driver-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-http\4.39.0\selenium-http-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.39.0\selenium-ie-driver-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.39.0\selenium-remote-driver-4.39.0.jar;C:\Users\aashi\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\aashi\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\aashi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\aashi\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\aashi\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-api\1.56.0\opentelemetry-api-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-context\1.56.0\opentelemetry-context-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-common\1.56.0\opentelemetry-common-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.56.0\opentelemetry-exporter-logging-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.56.0\opentelemetry-sdk-common-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.56.0\opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.56.0\opentelemetry-sdk-extension-autoconfigure-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.56.0\opentelemetry-sdk-trace-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.56.0\opentelemetry-sdk-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.56.0\opentelemetry-sdk-metrics-1.56.0.jar;C:\Users\aashi\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.56.0\opentelemetry-sdk-logs-1.56.0.jar;C:\Users\aashi\.m2\repository\net\bytebuddy\byte-buddy\1.18.2\byte-buddy-1.18.2.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-os\4.39.0\selenium-os-4.39.0.jar;C:\Users\aashi\.m2\repository\org\apache\commons\commons-exec\1.6.0\commons-exec-1.6.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.39.0\selenium-safari-driver-4.39.0.jar;C:\Users\aashi\.m2\repository\org\seleniumhq\selenium\selenium-support\4.39.0\selenium-support-4.39.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\aashi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-26.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\aashi\eclipse-workspace\gsit_project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\aashi\AppData\Local\Temp\surefire10848743262704952110\surefirebooter-20261029124437747_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26.0.1+8-34"/>
+    <property name="user.name" value="aashi"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\aashi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="otel.logs.exporter" value="none"/>
+    <property name="java.io.tmpdir" value="C:\Users\aashi\AppData\Local\Temp\"/>
+    <property name="java.version" value="26.0.1"/>
+    <property name="user.dir" value="C:\Users\aashi\eclipse-workspace\gsit_project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-26.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\dotnet\;%JAVA_HOME%\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\aashi\scoop\shims;C:\Users\aashi\AppData\Local\Microsoft\WindowsApps;C:\Users\aashi\AppData\Local\GitHubDesktop\bin;C:\Users\aashi\apache-maven-3.9.16-bin\apache-maven-3.9.16\bin;C:\Program Files\Java\jdk-26.0.1\bin;C:\Users\aashi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aashi\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;C:\Users\aashi\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="26.0.1+8-34"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Click Search to search the bus&quot;, &quot;Bus search&quot;](1)" classname="cucumberOptions.TestRunner" time="3.837">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because the return value of &quot;hooks.ScenarioHooks.getDriver()&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHooks.getDriver()" is null
+	at hooks.ScenarioHooks.teardown(ScenarioHooks.java:79)
+]]></failure>
+    <system-out><![CDATA[
+@findFastestBus
+Scenario: click Fastest first to Sort             &amp#27;[90m# src/test/resources/features/B_FastestDuration.feature:3&amp#27;[0m
+
+@findCheapestBus
+Scenario: click Cheapest first to Sort             &amp#27;[90m# src/test/resources/features/C_CheapestBus.feature:3&amp#27;[0m
+
+@searchBus
+Scenario: Click Search to search the bus   &amp#27;[90m# src/test/resources/features/A_validateBusSearch.feature:3&amp#27;[0m
+java -jar src/main/resources/selenium-server-4.51.0.jar standalone
+java -jar src/main/resources/selenium-server-4.51.0.jar standalone
+java -jar src/main/resources/selenium-server-4.51.0.jar standalone
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'ASHUTASHU', ip: '192.168.1.9'
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: windows}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: windows}
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'ASHUTASHU', ip: '192.168.1.9'
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: windows}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: windows}
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'ASHUTASHU', ip: '192.168.1.9'
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: windows}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: windows}
+12:44:42.497 [TestNG-PoolService-2] DEBUG stepDefinitions.A_ValidateBusSearch - nullhttps://www.zingbus.com/
+12:44:42.497 [TestNG-PoolService-3] DEBUG stepDefinitions.A_ValidateBusSearch - nullhttps://www.zingbus.com/
+12:44:42.497 [TestNG-PoolService-1] DEBUG stepDefinitions.A_ValidateBusSearch - nullhttps://www.zingbus.com/
+12:44:42.501 [TestNG-PoolService-3] ERROR stepDefinitions.A_ValidateBusSearch - Exception occured Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepDefinitions.A_ValidateBusSearch.getDriver()" is null
+12:44:42.501 [TestNG-PoolService-2] ERROR stepDefinitions.A_ValidateBusSearch - Exception occured Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepDefinitions.A_ValidateBusSearch.getDriver()" is null
+12:44:42.501 [TestNG-PoolService-1] ERROR stepDefinitions.A_ValidateBusSearch - Exception occured Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepDefinitions.A_ValidateBusSearch.getDriver()" is null
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on Home Page&amp#27;[0m                       &amp#27;[90m# stepDefinitions.A_ValidateBusSearch.user_is_on_home_page()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on Home Page&amp#27;[0m                      &amp#27;[90m# stepDefinitions.A_ValidateBusSearch.user_is_on_home_page()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on Home Page&amp#27;[0m               &amp#27;[90m# stepDefinitions.A_ValidateBusSearch.user_is_on_home_page()&amp#27;[0m
+12:44:42.509 [TestNG-PoolService-3] ERROR stepDefinitions.A_ValidateBusSearch - exception occuredCannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+12:44:42.509 [TestNG-PoolService-1] ERROR stepDefinitions.A_ValidateBusSearch - exception occuredCannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32menters From, To and Date of Journey&amp#27;[0m         &amp#27;[90m# stepDefinitions.A_ValidateBusSearch.enters_from_to_and_date_of_journey()&amp#27;[0m
+12:44:42.509 [TestNG-PoolService-2] ERROR stepDefinitions.A_ValidateBusSearch - exception occuredCannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32menters From, To and Date of Journey&amp#27;[0m &amp#27;[90m# stepDefinitions.A_ValidateBusSearch.enters_from_to_and_date_of_journey()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32menters From, To and Date of Journey&amp#27;[0m        &amp#27;[90m# stepDefinitions.A_ValidateBusSearch.enters_from_to_and_date_of_journey()&amp#27;[0m
+12:44:42.513 [TestNG-PoolService-2] ERROR stepDefinitions.A_ValidateBusSearch - exception occuredCannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+12:44:42.513 [TestNG-PoolService-3] ERROR stepDefinitions.A_ValidateBusSearch - exception occuredCannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mbus gets searched successfully&amp#27;[0m             &amp#27;[90m# stepDefinitions.A_ValidateBusSearch.bus_gets_searched_successfully()&amp#27;[0m
+12:44:42.513 [TestNG-PoolService-1] ERROR stepDefinitions.A_ValidateBusSearch - exception occuredCannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mbus gets searched successfully&amp#27;[0m              &amp#27;[90m# stepDefinitions.A_ValidateBusSearch.bus_gets_searched_successfully()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mbus gets searched successfully&amp#27;[0m      &amp#27;[90m# stepDefinitions.A_ValidateBusSearch.bus_gets_searched_successfully()&amp#27;[0m
+12:44:42.516 [TestNG-PoolService-3] DEBUG stepDefinitions.C_CheapestBus - https://www.zingbus.com/bus-tickets/delhi-to-chandigarh-bus-route
+12:44:42.517 [TestNG-PoolService-2] ERROR stepDefinitions.B_FastestDuration - exception occuredCannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepDefinitions.B_FastestDuration.getDriver()" is null
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on Bus List screen&amp#27;[0m                &amp#27;[90m# stepDefinitions.B_FastestDuration.user_is_on_bus_list_screen()&amp#27;[0m
+12:44:42.518 [TestNG-PoolService-3] ERROR stepDefinitions.C_CheapestBus - exception occuredCannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepDefinitions.C_CheapestBus.getDriver()" is null
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on  List screen&amp#27;[0m                    &amp#27;[90m# stepDefinitions.C_CheapestBus.user_is_on_bus_list_screen()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHooks.getDriver()" is null
+	at hooks.ScenarioHooks.teardown(ScenarioHooks.java:79)
+&amp#27;[0m
+12:44:42.521 [TestNG-PoolService-2] ERROR stepDefinitions.B_FastestDuration - exception occuredCannot invoke "pageObjects.FastestBusPage.getFilterFastest()" because "this.fastestBus" is null
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclick on Fastest First option&amp#27;[0m              &amp#27;[90m# stepDefinitions.B_FastestDuration.click_on_fastest_first_option()&amp#27;[0m
+12:44:42.524 [TestNG-PoolService-2] ERROR stepDefinitions.B_FastestDuration - exception occuredCannot invoke "pageObjects.FastestBusPage.getTimeFrame()" because "this.fastestBus" is null
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBus list appears sorted with Fastest First&amp#27;[0m &amp#27;[90m# stepDefinitions.B_FastestDuration.bus_list_appears_sorted_with_fastest_first()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHooks.getDriver()" is null
+	at hooks.ScenarioHooks.teardown(ScenarioHooks.java:79)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Oct 29, 2026 12:44:38 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+Oct 29, 2026 12:44:39 PM org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [platform]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Oct 29, 2026 12:44:39 PM org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [platform]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Oct 29, 2026 12:44:39 PM org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [platform]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;click Fastest first to Sort&quot;, &quot;Sorting as Fastest First&quot;](2)" classname="cucumberOptions.TestRunner" time="3.84">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because the return value of &quot;hooks.ScenarioHooks.getDriver()&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHooks.getDriver()" is null
+	at hooks.ScenarioHooks.teardown(ScenarioHooks.java:79)
+]]></failure>
+  </testcase>
+  <testcase name="runScenario[&quot;click Cheapest first to Sort&quot;, &quot;Sorting as Cheapest First&quot;](3)" classname="cucumberOptions.TestRunner" time="9.789">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because the return value of &quot;hooks.ScenarioHooks.getDriver()&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHooks.getDriver()" is null
+	at hooks.ScenarioHooks.teardown(ScenarioHooks.java:79)
+]]></failure>
+    <system-out><![CDATA[12:44:48.521 [TestNG-PoolService-3] ERROR stepDefinitions.C_CheapestBus - exception occuredCannot invoke "pageObjects.CheapestBusPage.getFilterCheapest()" because "this.cheapestBus" is null
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclick on Cheapest First option&amp#27;[0m              &amp#27;[90m# stepDefinitions.C_CheapestBus.click_on_cheapest_first_option()&amp#27;[0m
+12:44:48.523 [TestNG-PoolService-3] ERROR stepDefinitions.C_CheapestBus - exception occuredCannot invoke "pageObjects.CheapestBusPage.getPriceElements()" because "this.cheapestBus" is null
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBus list appears sorted with Cheapest First&amp#27;[0m &amp#27;[90m# stepDefinitions.C_CheapestBus.bus_list_appears_sorted_with_cheapest_first()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHooks.getDriver()" is null
+	at hooks.ScenarioHooks.teardown(ScenarioHooks.java:79)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
